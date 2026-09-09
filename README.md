@@ -8,7 +8,8 @@ site looks like when it's done properly.
 > **Nexora isn't a real company and there's no client.** This is a design and
 > front-end engineering exercise. It's also stated in the site's footer.
 
-**Live:** https://nexora-dev.vercel.app
+**Deploy:** import this repo on [Vercel](https://vercel.com/new) — Next.js is
+auto-detected and it builds with zero configuration.
 
 ![Nexora — hero](docs/screenshots/nexora-01-hero.png)
 
