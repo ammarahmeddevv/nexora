@@ -21,7 +21,7 @@ const description =
   "Nexora runs your functions as durable background jobs, cron schedules and multi-step workflows — surviving restarts, retrying on failure, and recording every run.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nexora-dev.vercel.app"),
+  metadataBase: new URL("https://nexora-ammarahmednot-8455s-projects.vercel.app"),
   title: {
     default: "Nexora — durable workflows for developers",
     template: "%s — Nexora",

@@ -8,8 +8,7 @@ site looks like when it's done properly.
 > **Nexora isn't a real company and there's no client.** This is a design and
 > front-end engineering exercise. It's also stated in the site's footer.
 
-**Deploy:** import this repo on [Vercel](https://vercel.com/new) — Next.js is
-auto-detected and it builds with zero configuration.
+**Live:** https://nexora-ammarahmednot-8455s-projects.vercel.app
 
 ![Nexora — hero](docs/screenshots/nexora-01-hero.png)
 
@@ -67,18 +66,18 @@ The full design rationale is in [`docs/DESIGN.md`](docs/DESIGN.md).
 
 ## Stack
 
-- **Next.js 16** (App Router, static export) · **TypeScript** · **Tailwind CSS v4**
+- **Next.js 16** (App Router, statically rendered) · **TypeScript** · **Tailwind CSS v4**
 - **React Three Fiber** + **three** + **@react-three/drei** — the hero 3D
 - **GSAP** + **ScrollTrigger** — the scroll sequence and hero entrance
 - **Lenis** — smooth scroll
 - Deployed on **Vercel**
 
-## Run it
+## Running locally
 
 ```bash
 npm install
-npm run dev      # http://localhost:3000
-npm run build    # production build (fully static)
+npm run dev        # http://localhost:3000
+npm run build      # production build
 npm run typecheck
 ```
 
